@@ -13,6 +13,7 @@ python_apt_package_deps:
   - libssl-dev
   - openssl
   - zlib1g-dev
+  - libffi-dev
 
 python_dnf_package_deps:
   - "@Development tools"
