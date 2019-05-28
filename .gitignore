@@ -4,3 +4,4 @@ venv
 *.log
 .DS_Store
 .vagrant
+.idea

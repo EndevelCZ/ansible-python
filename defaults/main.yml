@@ -1,8 +1,8 @@
 ---
 # Target versions
-python_version: 2.7.12
+python_version: 3.7.3
 python_setuptools_version: 20.9.0
-python_pip_version: 8.1.1
+python_pip_version: 19.1.1
 python_virtualenv_version: 15.0.1
 
 # If yes, setuptools, pip, and virtualenv are upgraded to the latest
@@ -11,7 +11,7 @@ python_virtualenv_version: 15.0.1
 #
 # If `auto_upgrade_packaging_tools` is no, then the versions above are
 # heeded.
-python_upgrade_packaging_tools: yes
+python_upgrade_packaging_tools: no
 
 # Path to a temporary sandbox directory within which to download,
 # extract, and build source tarballs. This directory is removed after
@@ -19,7 +19,7 @@ python_upgrade_packaging_tools: yes
 python_sandbox_path: /tmp/python
 
 # Path to a directory in which to install Python and related tooling.
-python_install_root: /usr/local
+python_install_root: /opt/python
 
 # The Python installation's bin directory. Helpful when invoking
 # `python` or `pip` from Ansible.
